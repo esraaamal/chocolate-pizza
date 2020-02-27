@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+body{
+
+    font-family: 'Anton', ;
+    background-color: aquamarine;
+}
+
+.myPage{
+margin: auto;
+width:900px;
+height:0 auto;
+background-color:rgb(255, 255, 248);
+min-height: 1500px;
+}
+
+.myIcon a{
+
+   float: right;
+   margin:50px 0;
+   
+}
+
+.myBar {
+    width: 900px;
+    height:0  auto;
+    min-height:100px;
+    background-color: rgb(255, 255, 248);
+ 
+
+}
+.mySocial{
+    
+    margin: 30px;
+    padding: 0;
+}
+
+.myHr{
+    width: 900px;
+    background-color: rgb(255, 255, 248);
+    height: 0 auto;
+    min-height: 200px;
+    margin: auto;
+    margin-bottom: 50px
+}
+
+hr{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+height:20px;
+background:url(../img/hr-img.png);
+background-repeat: repeat;
+
+border:0;
+border-color: rgb(138, 62, 62);
+background-color: rebeccapurple;
+
+}
