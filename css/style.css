@@ -1,58 +1,267 @@
-@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
 body{
 
-    font-family: 'Anton', ;
-    background-color: aquamarine;
+    background-size: cover;
+    background-color:rgb(255, 255, 248);;
+    background-position: center center;
+  
 }
 
+.mySocial {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    
+}
+.myBody h2{
+    padding-top: 50px;
+    font-family: 'Squada One' ;
+    font-size: 64px;
+   
+}
+
+.rightSide{
+    float: left;
+}
+.myBody h6{
+    color: gray;
+   font-family: sans-serif;
+   font-size: 15px;
+}
+
+.leftSide img{
+    float: left;
+    
+}
+.leftSide{
+    display: inline-flex;
+    float: right;
+    margin-right: 1px;
+    
+    margin-top: 120px;
+
+}
+.center img{
+    margin:50px 0px;
+    overflow-x: hidden;
+
+}
+
+.textCenter{
+
+    color:rgb(112, 112, 112) ;
+   line-height: 25px;
+   font-size: 18px;
+}
+
+.logo{
+   
+    display: inline-block;
+}
+
+/*.logo img{
+    float: left;
+  
+    width:50px;
+    opacity: 0.7;
+}*/
+
+.logo article{
+    margin-left: 60px;
+}
+
+.opimg{
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/small-logo.png);
+    background-size:70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+.opimage{
+   
+    height: 55px;
+    width: 55px;
+    background-color: black;
+    opacity: 0.7;
+}
+#delicious{
+    font-family: 'Pacifico' ;
+    font-size: 40px;
+    font-style: italic;
+
+}
+.food{
+    text-transform: uppercase;
+    font-family: 'Abel' ;
+    color: gray;
+}
+
+
+.rss{
+    margin-left: 10px;
+}
 .myPage{
 margin: auto;
 width:900px;
 height:0 auto;
-background-color:rgb(255, 255, 248);
+background-color:whitesmoke;
 min-height: 1500px;
+position: relative;
+margin-bottom: 90px;
 }
 
-.myIcon a{
-
-   float: right;
-   margin:50px 0;
-   
+.myBar .hr1{
+    margin-top:30px ;
 }
-
 .myBar {
+    margin-top: 50px;
     width: 900px;
     height:0  auto;
     min-height:100px;
     background-color: rgb(255, 255, 248);
+    position: relative;
  
 
 }
 .mySocial{
     
-    margin: 30px;
+    margin-top: 20px;
     padding: 0;
 }
 
 .myHr{
     width: 900px;
-    background-color: rgb(255, 255, 248);
     height: 0 auto;
-    min-height: 200px;
+    min-height: 1500px;
     margin: auto;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    background-color:rgb(255, 255, 248);
+    margin-top: 0px;
 }
 
-hr{
+.hr1{
     display: block;
 margin-left: auto;
 margin-right: auto;
-height:20px;
+height:15px;
 background:url(../img/hr-img.png);
 background-repeat: repeat;
 
 border:0;
-border-color: rgb(138, 62, 62);
-background-color: rebeccapurple;
+
 
 }
+
+
+
+
+.myFooter{
+    background-color: rgb(255, 255, 248);
+    width: 900px;
+    height:400px;
+    height: 0 auto;
+   margin: 0;
+  position: absolute;
+   top: 90%;
+   margin-bottom: 100px;
+  
+   
+}
+.hr2{
+    margin-top: 900px;
+    width: 888px;
+    
+    }
+    .or {
+        margin: -23px auto ;
+        width: 20px;
+        text-align: center;
+    }
+   
+    footer{
+        text-align: center;
+        margin-top: 45px;
+        color: gray;
+    }
+    .myButton{
+        width: 257px;
+        height: 57px;
+    border: 1px solid white;
+        background-color: #7e1d1d;
+
+    }
+    .infor img{
+        
+        display: inline-flex;
+        float: left;
+        margin-top: 1px;
+        text-align: right;
+
+    }
+    .infor button{
+        float:right;
+        margin-top: -60px;
+
+    }
+
+    .infor article h2{
+    
+        margin-top: 20px;
+        font-weight: 700;
+
+        margin-bottom: 10px;
+        font-style: bold;
+    }
+    .infor article p{
+        line-height: 20px;
+        
+    }
+    .infor article{
+
+margin-left: 90px;
+    }
+
+
+
+    .checkBox {
+        background-image: url(../img/list-bg.png);
+        background-repeat: repeat-y;
+        width: 900px;
+        height: 470px;
+        margin: auto;
+        line-height: 30px;
+        text-align: center;
+        font-family: 'Handlee';
+
+
+    }
+     
+    .myFooter hr{
+        margin-top: 50px;
+    }
+    
+    .leftCheck{
+        
+       margin-top: 40px;
+       float: left;
+    }
+  .rightCheck{
+      float: right;
+      margin-top: 40px;
+  }
+  .endcode{
+    margin-top: 150px;
+}
+.myButton p{
+    color: ivory;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+  }
